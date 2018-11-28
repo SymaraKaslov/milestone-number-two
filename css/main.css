@@ -1,0 +1,131 @@
+
+body {
+	width: 1200px;
+	height: 3350px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+/***** HEADER STYLES *****/
+
+header {
+	height: 800px;
+	color: #313131;
+}
+
+ /** Header NAV bar**/
+
+header nav ul {
+	margin: 0 -30px 0 0;
+	padding: 70px 0 0 803px;
+
+}
+
+header nav ul li {
+	display: inline;
+	font-family: 'open sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 23px;
+	text-transform: uppercase;
+	
+}
+
+header a {
+	color: #313131;
+	text-decoration: none;
+}
+
+
+/** Header H1 styles **/
+
+header h1 {
+	font-family: 'libre Baskerville', serif;
+	font-size: 64px;
+	font-weight: 700px;
+	margin-top: 180px;
+}
+
+#emphasize {
+	color: #ff654a;
+}
+
+/**Header H2 styles **/
+
+header h2 {
+	font-family: 'open sans', sans-serif;
+	font-size: 48px;
+	font-weight: 100;
+	margin-top: 50px;
+}
+
+
+
+/****ABOUT SECTION STYLES*****/
+
+#about {
+	height: 1050px;
+	border: 1px solid black;
+	background-color: #ff654a;
+	margin-left: -39px;
+	margin-right: -39px;
+}
+
+/** about H3 styles**/
+
+#about h3 {
+	color: #ffffff;
+	font-family: 'libre Baskerville', serif;
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 150px;
+	text-align: center;
+
+}
+
+/**image styles**/
+
+#about .center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/**about H4 styles **/
+
+#about h4 {
+	color: #ffffff;
+	font-family: 'open sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 45px;
+	text-align: center;
+}
+
+/**about P styles**/
+
+#about p {
+	color: #ffffff;
+	font-family: 'open sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	padding-left: 225px;
+	padding-right: 225px;
+}
+
+
+/*** Portfolio Styles ***/
+
+#portfolio {
+	height: 850px;
+	border: 1px solid black;
+}
+
+
+
+
+#contact {
+	height: 650px;
+	border: 1px solid black;
+}

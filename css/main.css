@@ -61,6 +61,18 @@ header h2 {
 
 
 
+/****H3 styles for ABOUT, PORTFOLIO and CONTACT sections*****/
+
+h3 {
+	color: #ffffff;
+	font-family: 'libre Baskerville', serif;
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 150px;
+	text-align: center;
+
+}
+
 /****ABOUT SECTION STYLES*****/
 
 #about {
@@ -71,19 +83,7 @@ header h2 {
 	margin-right: -39px;
 }
 
-/** about H3 styles**/
-
-#about h3 {
-	color: #ffffff;
-	font-family: 'libre Baskerville', serif;
-	font-size: 36px;
-	font-weight: 700;
-	margin-top: 150px;
-	text-align: center;
-
-}
-
-/**image styles**/
+/**i About mage styles**/
 
 #about .center {
 	display: block;
@@ -114,18 +114,122 @@ header h2 {
 	padding-right: 225px;
 }
 
+/***THIRD-WIDTH STYLES for Portfolio Section and Contact section****/
+.third-width {
+	float: left;
+	width: 400px;
+	margin-top: 40px;
+}
+
+.third-width .center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+/***THIRD-WIDTH STYLES H4***/
+.third-width h4 {
+	font-family: 'open sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/***Third-Width Text Styles; P tags and other tags***/
+.third-width p {
+	font-family: 'open sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
 
 /*** Portfolio Styles ***/
 
 #portfolio {
 	height: 850px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 
+/**Portfolio H3 styles**/
 
+#portfolio h3 {
+	color: #313131;
+	/**
+	font-family: 'libre Baskerville', serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	**/
+}
+
+
+/**Portfolio third width'styles**/
+
+#left-square h4 {
+	padding-left: 30px;
+}
+
+#left-square p {
+	padding-right: 55px;
+}
+
+#far-right {
+	margin-left: auto;
+	display: block;
+}
+
+#right-square h4 {
+	padding-left: 115px;
+}
+
+#right-square p{
+	padding-left: 100px;
+}
+
+/***CONTACT STYLES****/
 
 #contact {
 	height: 650px;
+	background-color: #ff654a;
+	margin-left: -39px;
+	margin-right: -39px;
 	border: 1px solid black;
+}
+
+/****Third-width UL li styles***/
+
+#contact .third-width ul {
+	margin-left: 110px;
+} 
+
+#contact .third-width ul li{
+	display: inline;
+}
+
+#middle-box h4{
+	padding-left: 60px;
+}
+
+#right-box p{
+	line-height: 12px;
+}
+/*****Third-Width text styles****/
+
+#contact h4, #contact p {
+	color: #ffffff;
+}
+
+
+#contact address, #contact a {
+	font-family: 'open sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#copyright {
+	clear: both;
 }

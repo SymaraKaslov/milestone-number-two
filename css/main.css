@@ -3,7 +3,6 @@ body {
 	width: 1200px;
 	height: 3350px;
 	margin: auto;
-	border: 1px solid black;
 }
 
 /***** HEADER STYLES *****/
@@ -77,13 +76,13 @@ h3 {
 
 #about {
 	height: 1050px;
-	border: 1px solid black;
+	border: 1px solid #ff654a;
 	background-color: #ff654a;
 	margin-left: -39px;
 	margin-right: -39px;
 }
 
-/**i About mage styles**/
+/*** About image styles**/
 
 #about .center {
 	display: block;
@@ -135,7 +134,7 @@ h3 {
 	font-weight: 700;
 }
 
-/***Third-Width Text Styles; P tags and other tags***/
+/***Third-Width Text Styles; P tags***/
 .third-width p {
 	font-family: 'open sans', sans-serif;
 	font-size: 24px;
@@ -154,14 +153,6 @@ h3 {
 
 #portfolio h3 {
 	color: #313131;
-	/**
-	font-family: 'libre Baskerville', serif;
-	font-size: 36px;
-	font-weight: 700;
-	text-align: center;
-	margin-top: 150px;
-	margin-bottom: 100px;
-	**/
 }
 
 
@@ -175,7 +166,7 @@ h3 {
 	padding-right: 55px;
 }
 
-#far-right {
+#far-right-img {
 	margin-left: auto;
 	display: block;
 }
@@ -188,39 +179,23 @@ h3 {
 	padding-left: 100px;
 }
 
-/***CONTACT STYLES****/
+/***CONTACT SECTION STYLES****/
 
 #contact {
 	height: 650px;
 	background-color: #ff654a;
 	margin-left: -39px;
 	margin-right: -39px;
-	border: 1px solid black;
+	border: 1px solid #ff654a;
 }
 
-/****Third-width UL li styles***/
-
-#contact .third-width ul {
-	margin-left: 110px;
-} 
-
-#contact .third-width ul li{
-	display: inline;
-}
-
-#middle-box h4{
-	padding-left: 60px;
-}
-
-#right-box p{
-	line-height: 12px;
-}
-/*****Third-Width text styles****/
 
 #contact h4, #contact p {
 	color: #ffffff;
 }
 
+
+/*** THIRD-WIDTH "HIRE ME" and "MEET ME" SECTION STYLES ***/
 
 #contact address, #contact a {
 	font-family: 'open sans', sans-serif;
@@ -230,6 +205,37 @@ h3 {
 	text-decoration: none;
 }
 
+#right-box p{
+	line-height: 12px;
+}
+
+
+/*** third-width "follow me" section styles****/
+
+#middle-box h4{
+	padding-left: 60px;
+}
+
+#middle-image {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+#contact .third-width ul {
+	margin-left: 80px;
+} 
+
+#contact .third-width ul li{
+	display: inline;
+}
+
+
+/**COPY RIGHT STYLES**/
+
 #copyright {
 	clear: both;
+	font-family: 'open sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 400px;
 }
